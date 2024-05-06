@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "DESKTOP-RL1RG51",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/",
+  "gitHubUrl": "https://github.com/rodasistemas/github-actions",
+  "workFolder": "_work"
+}
