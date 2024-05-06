@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "rodasistemas/github-actions",
+  "pipelineDirectory": "github-actions",
+  "workspaceDirectory": "github-actions\\github-actions",
+  "repositories": {
+    "rodasistemas/github-actions": {
+      "repositoryPath": "github-actions\\github-actions",
+      "lastRunOn": "05/06/2024 13:41:00 -03:00"
+    }
+  },
+  "lastRunOn": "05/06/2024 13:41:00 -03:00"
+}
