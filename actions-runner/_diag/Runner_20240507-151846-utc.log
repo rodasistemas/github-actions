@@ -446,3 +446,26 @@
 [2024-05-07 18:05:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
 [2024-05-07 18:05:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
 [2024-05-07 18:33:31Z INFO MessageListener] No message retrieved from session 'd5f60a30-b464-411e-9f58-17d96720bbea' within last 30 minutes.
+[2024-05-07 18:43:33Z ERR  MessageListener] Catch exception during get next message.
+[2024-05-07 18:43:33Z ERR  MessageListener] System.Security.Cryptography.CryptographicException: RSA key file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams was not found
+   at GitHub.Runner.Listener.Configuration.RSAEncryptedFileKeyManager.GetKey()
+   at GitHub.Runner.Listener.MessageListener.GetMessageDecryptor(Aes aes, TaskAgentMessage message)
+   at GitHub.Runner.Listener.MessageListener.DecryptMessage(TaskAgentMessage message)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2024-05-07 18:43:33Z INFO MessageListener] Retriable exception: RSA key file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams was not found
+[2024-05-07 18:43:33Z ERR  Terminal] WRITE ERROR: 2024-05-07 18:43:33Z: Runner connect error: RSA key file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams was not found. Retrying until reconnected.
+[2024-05-07 18:43:33Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2024-05-07 18:43:33Z INFO RunnerServer] EstablishVssConnection
+[2024-05-07 18:43:33Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-05-07 18:43:33Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-07 18:43:34Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-07 18:43:34Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2024-05-07 18:43:53Z INFO Terminal] WRITE LINE: Exiting...
+[2024-05-07 18:43:53Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-05-07 18:43:53Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-05-07 18:43:53Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2024-05-07 18:43:53Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2024-05-07 18:43:53Z INFO JobDispatcher] Ensure WorkerDispatcher for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish, cancel any running job.
+[2024-05-07 18:43:53Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-07 18:43:53Z INFO Runner] Deleting Runner Session...
+[2024-05-07 18:43:53Z INFO Listener] Runner execution been cancelled.
