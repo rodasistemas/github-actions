@@ -115,3 +115,351 @@
 [2024-05-06 16:27:19Z INFO Terminal] WRITE LINE: Current runner version: '2.316.0'
 [2024-05-06 16:27:19Z INFO Terminal] WRITE LINE: 2024-05-06 16:27:19Z: Listening for Jobs
 [2024-05-06 16:27:19Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-05-06 16:40:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-06 16:40:58Z INFO MessageListener] Message '1' received from session '742c6729-8103-4a26-9cc4-5180ff879dcf'.
+[2024-05-06 16:40:58Z INFO Runner] Received job message of length 23971 from service, with hash '3d675384879a50d15fc718867b0c740d2b30c426327bf6ba0cd4499ed3e885e1'
+[2024-05-06 16:40:58Z INFO JobDispatcher] Job request 1 for plan 867df5c0-e208-437a-a7ab-9004ea729f39 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-06 16:40:58Z INFO JobDispatcher] Pull OrchestrationId 867df5c0-e208-437a-a7ab-9004ea729f39.build.__default from JWT claims
+[2024-05-06 16:40:58Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-06 16:40:58Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-06 16:40:58Z INFO Terminal] WRITE LINE: 2024-05-06 16:40:58Z: Running job: build
+[2024-05-06 16:40:58Z INFO JobDispatcher] Start renew job request 1 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:40:58Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 06/05/2024 16:50:58
+[2024-05-06 16:40:58Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1744 1452'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-06 16:40:58Z INFO ProcessInvokerWrapper] Process started with process id 8960, waiting for process exit.
+[2024-05-06 16:40:58Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:40:58Z INFO ProcessChannel] Sending message of length 23971, with hash '3d675384879a50d15fc718867b0c740d2b30c426327bf6ba0cd4499ed3e885e1'
+[2024-05-06 16:40:59Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-06 16:40:59Z INFO JobNotification] Entering StartMonitor
+[2024-05-06 16:41:59Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 06/05/2024 16:51:59
+[2024-05-06 16:42:59Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 06/05/2024 16:52:59
+[2024-05-06 16:43:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:43:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:43:22Z INFO ProcessInvokerWrapper] Finished process 8960 with exit code 102, and elapsed time 00:02:23.1817362.
+[2024-05-06 16:43:22Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-06 16:43:22Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-06 16:43:22Z INFO Terminal] WRITE LINE: 2024-05-06 16:43:22Z: Job build completed with result: Failed
+[2024-05-06 16:43:22Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:43:22Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 1.
+[2024-05-06 16:43:22Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-06 16:43:22Z INFO JobNotification] Entering EndMonitor
+[2024-05-06 16:43:22Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-06 16:43:22Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=742c6729-8103-4a26-9cc4-5180ff879dcf&lastMessageId=1&status=Busy&runnerVersion=2.316.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-06 16:43:22Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-06 16:45:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-06 16:45:34Z INFO MessageListener] Message '2' received from session '742c6729-8103-4a26-9cc4-5180ff879dcf'.
+[2024-05-06 16:45:34Z INFO Runner] Received job message of length 23971 from service, with hash '8fef28054537d26583829ae117c5b816ad4561ae4e7a543b4bf03c64738c7cd4'
+[2024-05-06 16:45:34Z INFO JobDispatcher] Job request 2 for plan 997d8f5d-98ae-4b26-803a-4f9e6d1da556 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-06 16:45:34Z INFO JobDispatcher] Pull OrchestrationId 997d8f5d-98ae-4b26-803a-4f9e6d1da556.build.__default from JWT claims
+[2024-05-06 16:45:34Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-06 16:45:34Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-06 16:45:34Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-06 16:45:34Z INFO Terminal] WRITE LINE: 2024-05-06 16:45:34Z: Running job: build
+[2024-05-06 16:45:34Z INFO JobDispatcher] Start renew job request 2 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:45:34Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 06/05/2024 16:55:34
+[2024-05-06 16:45:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2152 2256'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-06 16:45:34Z INFO ProcessInvokerWrapper] Process started with process id 25628, waiting for process exit.
+[2024-05-06 16:45:34Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:45:35Z INFO ProcessChannel] Sending message of length 23971, with hash '8fef28054537d26583829ae117c5b816ad4561ae4e7a543b4bf03c64738c7cd4'
+[2024-05-06 16:45:35Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-06 16:45:35Z INFO JobNotification] Entering StartMonitor
+[2024-05-06 16:46:35Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 06/05/2024 16:56:35
+[2024-05-06 16:46:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:46:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:46:39Z INFO ProcessInvokerWrapper] Finished process 25628 with exit code 102, and elapsed time 00:01:04.1908685.
+[2024-05-06 16:46:39Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-06 16:46:39Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-06 16:46:39Z INFO Terminal] WRITE LINE: 2024-05-06 16:46:39Z: Job build completed with result: Failed
+[2024-05-06 16:46:39Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:46:39Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 2.
+[2024-05-06 16:46:39Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-06 16:46:39Z INFO JobNotification] Entering EndMonitor
+[2024-05-06 16:46:39Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-06 16:46:39Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=742c6729-8103-4a26-9cc4-5180ff879dcf&lastMessageId=2&status=Busy&runnerVersion=2.316.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-06 16:46:39Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-06 16:47:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-06 16:47:30Z INFO MessageListener] Message '3' received from session '742c6729-8103-4a26-9cc4-5180ff879dcf'.
+[2024-05-06 16:47:30Z INFO Runner] Received job message of length 23971 from service, with hash 'c64167ab91aa28fb2f3e19af5011383488b160046f72cc4d32bd02d01834de16'
+[2024-05-06 16:47:30Z INFO JobDispatcher] Job request 3 for plan 5411398f-4b14-44bd-83fd-7bda76b7ca51 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-06 16:47:30Z INFO JobDispatcher] Pull OrchestrationId 5411398f-4b14-44bd-83fd-7bda76b7ca51.build.__default from JWT claims
+[2024-05-06 16:47:30Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-06 16:47:30Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-06 16:47:30Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-06 16:47:30Z INFO Terminal] WRITE LINE: 2024-05-06 16:47:30Z: Running job: build
+[2024-05-06 16:47:30Z INFO JobDispatcher] Start renew job request 3 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:47:30Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 06/05/2024 16:57:30
+[2024-05-06 16:47:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2400 2412'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-06 16:47:30Z INFO ProcessInvokerWrapper] Process started with process id 2032, waiting for process exit.
+[2024-05-06 16:47:30Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:47:30Z INFO ProcessChannel] Sending message of length 23971, with hash 'c64167ab91aa28fb2f3e19af5011383488b160046f72cc4d32bd02d01834de16'
+[2024-05-06 16:47:31Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-06 16:47:31Z INFO JobNotification] Entering StartMonitor
+[2024-05-06 16:47:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:47:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:47:48Z INFO ProcessInvokerWrapper] Finished process 2032 with exit code 102, and elapsed time 00:00:17.5435906.
+[2024-05-06 16:47:48Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-06 16:47:48Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-06 16:47:48Z INFO Terminal] WRITE LINE: 2024-05-06 16:47:48Z: Job build completed with result: Failed
+[2024-05-06 16:47:48Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:47:48Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 3.
+[2024-05-06 16:47:48Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-06 16:47:48Z INFO JobNotification] Entering EndMonitor
+[2024-05-06 16:47:48Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-06 16:47:48Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=742c6729-8103-4a26-9cc4-5180ff879dcf&lastMessageId=3&status=Busy&runnerVersion=2.316.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-06 16:47:48Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-06 16:48:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-06 16:48:28Z INFO MessageListener] Message '4' received from session '742c6729-8103-4a26-9cc4-5180ff879dcf'.
+[2024-05-06 16:48:28Z INFO Runner] Received job message of length 23971 from service, with hash '190414fb367d99424e6ae1a121710eb2f73f655fa5626285f16db92debd6c9fd'
+[2024-05-06 16:48:28Z INFO JobDispatcher] Job request 4 for plan 405d4ebd-bbfd-48f1-b3c3-07063b09201c job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-06 16:48:28Z INFO JobDispatcher] Pull OrchestrationId 405d4ebd-bbfd-48f1-b3c3-07063b09201c.build.__default from JWT claims
+[2024-05-06 16:48:28Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-06 16:48:28Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-06 16:48:28Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-06 16:48:28Z INFO Terminal] WRITE LINE: 2024-05-06 16:48:28Z: Running job: build
+[2024-05-06 16:48:28Z INFO JobDispatcher] Start renew job request 4 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:48:28Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 06/05/2024 16:58:28
+[2024-05-06 16:48:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1604 2300'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-06 16:48:28Z INFO ProcessInvokerWrapper] Process started with process id 10628, waiting for process exit.
+[2024-05-06 16:48:28Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:48:28Z INFO ProcessChannel] Sending message of length 23971, with hash '190414fb367d99424e6ae1a121710eb2f73f655fa5626285f16db92debd6c9fd'
+[2024-05-06 16:48:28Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-06 16:48:28Z INFO JobNotification] Entering StartMonitor
+[2024-05-06 16:49:28Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 06/05/2024 16:59:28
+[2024-05-06 16:50:28Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 06/05/2024 17:00:28
+[2024-05-06 16:50:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:50:39Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-06 16:50:39Z INFO ProcessInvokerWrapper] Finished process 10628 with exit code 102, and elapsed time 00:02:10.9039751.
+[2024-05-06 16:50:39Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-06 16:50:39Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-06 16:50:39Z INFO Terminal] WRITE LINE: 2024-05-06 16:50:39Z: Job build completed with result: Failed
+[2024-05-06 16:50:39Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-06 16:50:39Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 4.
+[2024-05-06 16:50:39Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-06 16:50:39Z INFO JobNotification] Entering EndMonitor
+[2024-05-06 16:50:39Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-06 16:50:39Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=742c6729-8103-4a26-9cc4-5180ff879dcf&lastMessageId=4&status=Busy&runnerVersion=2.316.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-06 16:50:39Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-07 15:16:57Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=742c6729-8103-4a26-9cc4-5180ff879dcf&lastMessageId=4&status=Online&runnerVersion=2.316.0&os=Windows&architecture=X64&disableUpdate=false timed out after 60 seconds.
+[2024-05-07 15:16:57Z ERR  MessageListener] Catch exception during get next message.
+[2024-05-07 15:16:57Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2024-05-07 15:16:57Z ERR  MessageListener] #####################################################
+[2024-05-07 15:16:57Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-07 15:16:57Z ERR  MessageListener] #####################################################
+[2024-05-07 15:16:57Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2024-05-07 15:16:57Z ERR  MessageListener] #####################################################
+[2024-05-07 15:16:57Z ERR  MessageListener] System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+[2024-05-07 15:16:57Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2024-05-07 15:16:57Z ERR  Terminal] WRITE ERROR: 2024-05-07 15:16:57Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2024-05-07 15:16:57Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2024-05-07 15:16:57Z INFO RunnerServer] EstablishVssConnection
+[2024-05-07 15:16:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-05-07 15:16:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-07 15:16:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-07 15:16:57Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2024-05-07 15:17:23Z INFO MessageListener] No message retrieved from session '742c6729-8103-4a26-9cc4-5180ff879dcf' within last 30 minutes.
+[2024-05-07 15:17:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 15:17:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-05-07 15:18:14Z INFO Terminal] WRITE LINE: 2024-05-07 15:18:14Z: Runner reconnected.
+[2024-05-07 15:18:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 15:18:29Z INFO MessageListener] Message '5' received from session '742c6729-8103-4a26-9cc4-5180ff879dcf'.
+[2024-05-07 15:18:29Z INFO Runner] Refresh message received, kick-off selfupdate background process.
+[2024-05-07 15:18:29Z INFO SelfUpdater] Version '2.316.1' of 'agent' package available in server.
+[2024-05-07 15:18:29Z INFO SelfUpdater] Current running runner version is 2.316.0
+[2024-05-07 15:18:29Z INFO SelfUpdater] An update is available.
+[2024-05-07 15:18:29Z INFO Terminal] WRITE LINE: Runner update in progress, do not shutdown runner.
+[2024-05-07 15:18:29Z INFO SelfUpdater] RunnerPlatform: win-x64
+[2024-05-07 15:18:29Z INFO Terminal] WRITE LINE: Downloading 2.316.1 runner
+[2024-05-07 15:18:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:30Z INFO HostContext] Well known directory 'Work': 'C:\Users\Notebook\labs\github-actions\actions-runner\_work'
+[2024-05-07 15:18:30Z INFO SelfUpdater] Attempt 1: save latest runner into C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\runner1.zip.
+[2024-05-07 15:18:30Z INFO SelfUpdater] Download runner: begin download
+[2024-05-07 15:18:30Z INFO SelfUpdater] Downloading https://github.com/actions/runner/releases/download/v2.316.1/actions-runner-win-x64-2.316.1.zip
+[2024-05-07 15:18:38Z INFO SelfUpdater] Download runner: finished download
+[2024-05-07 15:18:39Z INFO SelfUpdater] Validated Runner Hash matches C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\runner1.zip : e41debe4f0a83f66b28993eaf84dad944c8c82e2c9da81f56a850bc27fedd76b
+[2024-05-07 15:18:40Z INFO SelfUpdater] Finished getting latest runner package at: C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update.
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\bin to C:\Users\Notebook\labs\github-actions\actions-runner\bin.2.316.1.
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\externals to C:\Users\Notebook\labs\github-actions\actions-runner\externals.2.316.1.
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy any remaining .sh/.cmd files into runner root.
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\config.cmd to C:\Users\Notebook\labs\github-actions\actions-runner\config.cmd
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\run-helper.cmd.template to C:\Users\Notebook\labs\github-actions\actions-runner\run-helper.cmd.template
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\run-helper.sh.template to C:\Users\Notebook\labs\github-actions\actions-runner\run-helper.sh.template
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Copy C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update\run.cmd to C:\Users\Notebook\labs\github-actions\actions-runner\run.cmd
+[2024-05-07 15:18:41Z INFO SelfUpdater] Download latest runner and unzip into runner root.
+[2024-05-07 15:18:41Z INFO Terminal] WRITE LINE: Waiting for current job finish running.
+[2024-05-07 15:18:41Z INFO SelfUpdater] DownloadUrl: https://github.com/actions/runner/releases/download/v2.316.1/actions-runner-win-x64-2.316.1.zip
+[2024-05-07 15:18:41Z INFO SelfUpdater] PackageDownloadTime: 8789ms
+[2024-05-07 15:18:41Z INFO SelfUpdater] Attempts: 1
+[2024-05-07 15:18:41Z INFO SelfUpdater] PackageSize: 84MB
+[2024-05-07 15:18:41Z INFO SelfUpdater] ValidateHashTime: 225ms
+[2024-05-07 15:18:41Z INFO SelfUpdater] PackageExtractTime: 1863ms
+[2024-05-07 15:18:41Z INFO SelfUpdater] CopyRunnerToRootTime: 470ms
+[2024-05-07 15:18:41Z INFO JobDispatcher] Waiting WorkerDispatcher for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish.
+[2024-05-07 15:18:41Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-07 15:18:41Z INFO SelfUpdater] All running job has exited.
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Delete old version runner backup.
+[2024-05-07 15:18:41Z INFO Terminal] WRITE LINE: Generate and execute update script.
+[2024-05-07 15:18:41Z INFO SelfUpdater] DeleteRunnerBackupTime: 8ms
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Diag': 'C:\Users\Notebook\labs\github-actions\actions-runner\_diag'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\Notebook\labs\github-actions\actions-runner'
+[2024-05-07 15:18:41Z INFO HostContext] Well known directory 'Work': 'C:\Users\Notebook\labs\github-actions\actions-runner\_work'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Generate update script into: C:\Users\Notebook\labs\github-actions\actions-runner\_work\_update.cmd
+[2024-05-07 15:18:41Z INFO SelfUpdater] Which2: 'cmd.exe'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Location: 'C:\WINDOWS\system32\cmd.exe'
+[2024-05-07 15:18:41Z INFO SelfUpdater] Update script start running
+[2024-05-07 15:18:41Z INFO Terminal] WRITE LINE: Runner will exit shortly for update, should be back online within 10 seconds.
+[2024-05-07 15:18:41Z INFO SelfUpdater] TotalUpdateTime: 12562ms
+[2024-05-07 15:18:41Z INFO Terminal] WRITE LINE: Runner update process finished.
+[2024-05-07 15:18:42Z INFO Runner] Auto update task finished at backend, an runner update is ready to apply exit the current runner instance.
+[2024-05-07 15:18:42Z INFO Runner] Stop message queue looping.
+[2024-05-07 15:18:42Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=742c6729-8103-4a26-9cc4-5180ff879dcf&lastMessageId=5&status=Online&runnerVersion=2.316.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-07 15:18:42Z INFO MessageListener] Get next message has been cancelled.
+[2024-05-07 15:18:42Z INFO Runner] Ignore any exception after cancel message loop. System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+   at GitHub.Runner.Listener.Runner.RunAsync(RunnerSettings settings, Boolean runOnce)
+[2024-05-07 15:18:42Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2024-05-07 15:18:42Z INFO Runner] Deleting Runner Session...
+[2024-05-07 15:18:42Z INFO Listener] Runner execution has finished with return code 3
