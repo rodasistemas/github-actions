@@ -9,7 +9,7 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 /** @type {import('jest').Config} */
 const config: Config = {
-  coverageProvider: 'v8',
+  // coverageProvider: 'v8',
   testEnvironment: 'jest-environment-jsdom',
   preset: 'ts-jest',
   testPathIgnorePatterns: ['\\actions-runner\\'],

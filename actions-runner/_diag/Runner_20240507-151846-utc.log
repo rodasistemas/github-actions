@@ -315,3 +315,134 @@
 [2024-05-07 17:10:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
 [2024-05-07 17:10:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
 [2024-05-07 17:27:41Z INFO MessageListener] No message retrieved from session 'd5f60a30-b464-411e-9f58-17d96720bbea' within last 30 minutes.
+[2024-05-07 17:54:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 17:54:04Z INFO MessageListener] Message '9' received from session 'd5f60a30-b464-411e-9f58-17d96720bbea'.
+[2024-05-07 17:54:04Z INFO Runner] Received job message of length 23970 from service, with hash 'af192775fccafa4c73b45858b2147f6e21f092f93e3ca9b92e52c79bbabdef59'
+[2024-05-07 17:54:04Z INFO JobDispatcher] Job request 8 for plan db8b1268-b2f3-42ea-b263-4e1e6ca0fc64 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-07 17:54:04Z INFO JobDispatcher] Pull OrchestrationId db8b1268-b2f3-42ea-b263-4e1e6ca0fc64.build.__default from JWT claims
+[2024-05-07 17:54:04Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-07 17:54:04Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-07 17:54:04Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-07 17:54:04Z INFO Terminal] WRITE LINE: 2024-05-07 17:54:04Z: Running job: build
+[2024-05-07 17:54:04Z INFO JobDispatcher] Start renew job request 8 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 17:54:05Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 07/05/2024 18:04:04
+[2024-05-07 17:54:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3192 3204'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-07 17:54:05Z INFO ProcessInvokerWrapper] Process started with process id 15204, waiting for process exit.
+[2024-05-07 17:54:05Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 17:54:05Z INFO ProcessChannel] Sending message of length 23970, with hash 'af192775fccafa4c73b45858b2147f6e21f092f93e3ca9b92e52c79bbabdef59'
+[2024-05-07 17:54:05Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-07 17:54:05Z INFO JobNotification] Entering StartMonitor
+[2024-05-07 17:55:05Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 07/05/2024 18:05:04
+[2024-05-07 17:56:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 17:56:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 17:56:05Z INFO ProcessInvokerWrapper] Finished process 15204 with exit code 102, and elapsed time 00:02:00.2389321.
+[2024-05-07 17:56:05Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-07 17:56:05Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-07 17:56:05Z INFO Terminal] WRITE LINE: 2024-05-07 17:56:05Z: Job build completed with result: Failed
+[2024-05-07 17:56:05Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 17:56:05Z WARN GitHubActionsService] PATCH request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/jobrequests/8?lockToken=00000000-0000-0000-0000-000000000000 has been cancelled.
+[2024-05-07 17:56:05Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 8.
+[2024-05-07 17:56:05Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-07 17:56:05Z INFO JobNotification] Entering EndMonitor
+[2024-05-07 17:56:05Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-07 17:56:05Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=d5f60a30-b464-411e-9f58-17d96720bbea&lastMessageId=9&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-07 17:56:05Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-07 17:58:48Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 17:58:48Z INFO MessageListener] Message '10' received from session 'd5f60a30-b464-411e-9f58-17d96720bbea'.
+[2024-05-07 17:58:48Z INFO Runner] Received job message of length 23972 from service, with hash 'dbaf9ff4030f87854f0b4d2d4f9b5d74a9ab0689d3cf210c25bbd2f2608860c9'
+[2024-05-07 17:58:48Z INFO JobDispatcher] Job request 9 for plan 2b80fe08-26b6-4ac9-9b43-b81dc51ee4af job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-07 17:58:48Z INFO JobDispatcher] Pull OrchestrationId 2b80fe08-26b6-4ac9-9b43-b81dc51ee4af.build.__default from JWT claims
+[2024-05-07 17:58:48Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-07 17:58:48Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-07 17:58:48Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-07 17:58:48Z INFO Terminal] WRITE LINE: 2024-05-07 17:58:48Z: Running job: build
+[2024-05-07 17:58:48Z INFO JobDispatcher] Start renew job request 9 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 17:58:48Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 07/05/2024 18:08:47
+[2024-05-07 17:58:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3384 3396'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-07 17:58:48Z INFO ProcessInvokerWrapper] Process started with process id 25496, waiting for process exit.
+[2024-05-07 17:58:48Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 17:58:48Z INFO ProcessChannel] Sending message of length 23972, with hash 'dbaf9ff4030f87854f0b4d2d4f9b5d74a9ab0689d3cf210c25bbd2f2608860c9'
+[2024-05-07 17:58:48Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-07 17:58:48Z INFO JobNotification] Entering StartMonitor
+[2024-05-07 17:59:48Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 07/05/2024 18:09:47
+[2024-05-07 18:00:48Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 07/05/2024 18:10:48
+[2024-05-07 18:00:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 18:00:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 18:00:57Z INFO ProcessInvokerWrapper] Finished process 25496 with exit code 102, and elapsed time 00:02:08.6756092.
+[2024-05-07 18:00:57Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-07 18:00:57Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-07 18:00:57Z INFO Terminal] WRITE LINE: 2024-05-07 18:00:57Z: Job build completed with result: Failed
+[2024-05-07 18:00:57Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 18:00:57Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 9.
+[2024-05-07 18:00:57Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-07 18:00:57Z INFO JobNotification] Entering EndMonitor
+[2024-05-07 18:00:57Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-07 18:00:57Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=d5f60a30-b464-411e-9f58-17d96720bbea&lastMessageId=10&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-07 18:00:57Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-07 18:02:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 18:02:55Z INFO MessageListener] Message '11' received from session 'd5f60a30-b464-411e-9f58-17d96720bbea'.
+[2024-05-07 18:02:55Z INFO Runner] Received job message of length 24028 from service, with hash 'f32b87ba1d95b53c3c35f4878a0944b21aa83b238e50757725edf7e8a47eaf77'
+[2024-05-07 18:02:55Z INFO JobDispatcher] Job request 10 for plan c0faef59-5491-42b1-bff4-9b217f0dcff1 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-07 18:02:55Z INFO JobDispatcher] Pull OrchestrationId c0faef59-5491-42b1-bff4-9b217f0dcff1.build.__default from JWT claims
+[2024-05-07 18:02:55Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-07 18:02:55Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-07 18:02:55Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-07 18:02:55Z INFO Terminal] WRITE LINE: 2024-05-07 18:02:55Z: Running job: build
+[2024-05-07 18:02:55Z INFO JobDispatcher] Start renew job request 10 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 18:02:56Z INFO JobDispatcher] Successfully renew job request 10, job is valid till 07/05/2024 18:12:55
+[2024-05-07 18:02:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3460 2704'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-07 18:02:56Z INFO ProcessInvokerWrapper] Process started with process id 5848, waiting for process exit.
+[2024-05-07 18:02:56Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 18:02:56Z INFO ProcessChannel] Sending message of length 24028, with hash 'f32b87ba1d95b53c3c35f4878a0944b21aa83b238e50757725edf7e8a47eaf77'
+[2024-05-07 18:02:56Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-07 18:02:56Z INFO JobNotification] Entering StartMonitor
+[2024-05-07 18:03:56Z INFO JobDispatcher] Successfully renew job request 10, job is valid till 07/05/2024 18:13:55
+[2024-05-07 18:04:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 18:04:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 18:04:14Z INFO ProcessInvokerWrapper] Finished process 5848 with exit code 102, and elapsed time 00:01:17.8199294.
+[2024-05-07 18:04:14Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-07 18:04:14Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-07 18:04:14Z INFO Terminal] WRITE LINE: 2024-05-07 18:04:14Z: Job build completed with result: Failed
+[2024-05-07 18:04:14Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 18:04:14Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 10.
+[2024-05-07 18:04:14Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-07 18:04:14Z INFO JobNotification] Entering EndMonitor
+[2024-05-07 18:04:14Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-07 18:04:14Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=d5f60a30-b464-411e-9f58-17d96720bbea&lastMessageId=11&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-07 18:04:14Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-07 18:05:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 18:05:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-05-07 18:33:31Z INFO MessageListener] No message retrieved from session 'd5f60a30-b464-411e-9f58-17d96720bbea' within last 30 minutes.
