@@ -13,5 +13,5 @@ describe("Tests Home", ()=>{
         const homePageLink = screen.getByRole("link",{name: "About Page"});
         expect(homePageLink).toBeDefined()
         expect(homePageLink.getAttribute("href")).not.toBe("/home")
-    })
+    });
 })
