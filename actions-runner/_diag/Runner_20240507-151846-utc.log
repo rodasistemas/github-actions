@@ -115,3 +115,156 @@
 [2024-05-07 15:18:50Z INFO Terminal] WRITE LINE: Current runner version: '2.316.1'
 [2024-05-07 15:18:50Z INFO Terminal] WRITE LINE: 2024-05-07 15:18:50Z: Listening for Jobs
 [2024-05-07 15:18:50Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-05-07 15:29:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 15:29:35Z INFO MessageListener] Message '6' received from session 'd5f60a30-b464-411e-9f58-17d96720bbea'.
+[2024-05-07 15:29:35Z INFO Runner] Received job message of length 23970 from service, with hash '6cf1bfefd47bacd1bf2245ef6f072f010a9ff0e77e2bb0279e25f0b0a96300de'
+[2024-05-07 15:29:36Z INFO JobDispatcher] Job request 5 for plan 83c5e01f-3ce7-44a7-aacd-e24735e2df9e job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-07 15:29:36Z INFO JobDispatcher] Pull OrchestrationId 83c5e01f-3ce7-44a7-aacd-e24735e2df9e.build.__default from JWT claims
+[2024-05-07 15:29:36Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-07 15:29:36Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-07 15:29:36Z INFO Terminal] WRITE LINE: 2024-05-07 15:29:36Z: Running job: build
+[2024-05-07 15:29:36Z INFO JobDispatcher] Start renew job request 5 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 15:29:36Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 07/05/2024 15:39:35
+[2024-05-07 15:29:36Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1368 1964'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-07 15:29:36Z INFO ProcessInvokerWrapper] Process started with process id 18956, waiting for process exit.
+[2024-05-07 15:29:36Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 15:29:36Z INFO ProcessChannel] Sending message of length 23970, with hash '6cf1bfefd47bacd1bf2245ef6f072f010a9ff0e77e2bb0279e25f0b0a96300de'
+[2024-05-07 15:29:39Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-07 15:29:39Z INFO JobNotification] Entering StartMonitor
+[2024-05-07 15:30:37Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 07/05/2024 15:40:36
+[2024-05-07 15:31:37Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 07/05/2024 15:41:36
+[2024-05-07 15:32:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 15:32:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 15:32:16Z INFO ProcessInvokerWrapper] Finished process 18956 with exit code 102, and elapsed time 00:02:39.3293968.
+[2024-05-07 15:32:16Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-07 15:32:16Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-07 15:32:16Z INFO Terminal] WRITE LINE: 2024-05-07 15:32:16Z: Job build completed with result: Failed
+[2024-05-07 15:32:16Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 15:32:16Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 5.
+[2024-05-07 15:32:16Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-07 15:32:16Z INFO JobNotification] Entering EndMonitor
+[2024-05-07 15:32:16Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-07 15:32:16Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=d5f60a30-b464-411e-9f58-17d96720bbea&lastMessageId=6&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-07 15:32:16Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-07 15:59:52Z INFO MessageListener] No message retrieved from session 'd5f60a30-b464-411e-9f58-17d96720bbea' within last 30 minutes.
+[2024-05-07 16:06:30Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=d5f60a30-b464-411e-9f58-17d96720bbea&lastMessageId=6&status=Online&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false timed out after 60 seconds.
+[2024-05-07 16:06:30Z ERR  MessageListener] Catch exception during get next message.
+[2024-05-07 16:06:30Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2024-05-07 16:06:30Z ERR  MessageListener] #####################################################
+[2024-05-07 16:06:30Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-05-07 16:06:30Z ERR  MessageListener] #####################################################
+[2024-05-07 16:06:30Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo..
+ ---> System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2024-05-07 16:06:30Z ERR  MessageListener] #####################################################
+[2024-05-07 16:06:30Z ERR  MessageListener] System.Net.Sockets.SocketException (995): A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+[2024-05-07 16:06:30Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2024-05-07 16:06:30Z ERR  Terminal] WRITE ERROR: 2024-05-07 16:06:30Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2024-05-07 16:06:30Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2024-05-07 16:06:30Z INFO RunnerServer] EstablishVssConnection
+[2024-05-07 16:06:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-05-07 16:06:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-05-07 16:06:31Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-05-07 16:06:31Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2024-05-07 16:07:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 16:07:00Z INFO Terminal] WRITE LINE: 2024-05-07 16:07:00Z: Runner reconnected.
+[2024-05-07 16:07:00Z INFO MessageListener] Message '7' received from session 'd5f60a30-b464-411e-9f58-17d96720bbea'.
+[2024-05-07 16:07:00Z INFO Runner] Received job message of length 23970 from service, with hash '1702ed15832998ef90787920b13c8900791e67688786cd3b07d3697795a528bc'
+[2024-05-07 16:07:00Z INFO JobDispatcher] Job request 6 for plan 7404e8bf-f19d-4a3f-98bc-eba821f262ab job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-05-07 16:07:00Z INFO JobDispatcher] Pull OrchestrationId 7404e8bf-f19d-4a3f-98bc-eba821f262ab.build.__default from JWT claims
+[2024-05-07 16:07:00Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-05-07 16:07:00Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-05-07 16:07:00Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-05-07 16:07:00Z INFO Terminal] WRITE LINE: 2024-05-07 16:07:00Z: Running job: build
+[2024-05-07 16:07:00Z INFO JobDispatcher] Start renew job request 6 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 16:07:01Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 07/05/2024 16:17:00
+[2024-05-07 16:07:01Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper] Starting process:
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin\Runner.Worker.exe'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2484 1688'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\Notebook\labs\github-actions\actions-runner\bin'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-05-07 16:07:01Z INFO ProcessInvokerWrapper] Process started with process id 23408, waiting for process exit.
+[2024-05-07 16:07:01Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 16:07:01Z INFO ProcessChannel] Sending message of length 23970, with hash '1702ed15832998ef90787920b13c8900791e67688786cd3b07d3697795a528bc'
+[2024-05-07 16:07:01Z INFO JobNotification] Entering JobStarted Notification
+[2024-05-07 16:07:01Z INFO JobNotification] Entering StartMonitor
+[2024-05-07 16:08:01Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 07/05/2024 16:18:00
+[2024-05-07 16:09:01Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 07/05/2024 16:19:00
+[2024-05-07 16:09:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 16:09:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-05-07 16:09:16Z INFO ProcessInvokerWrapper] Finished process 23408 with exit code 102, and elapsed time 00:02:15.6989006.
+[2024-05-07 16:09:16Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-05-07 16:09:16Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-05-07 16:09:16Z INFO Terminal] WRITE LINE: 2024-05-07 16:09:16Z: Job build completed with result: Failed
+[2024-05-07 16:09:16Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-05-07 16:09:16Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 6.
+[2024-05-07 16:09:16Z INFO JobNotification] Entering JobCompleted Notification
+[2024-05-07 16:09:16Z INFO JobNotification] Entering EndMonitor
+[2024-05-07 16:09:16Z INFO MessageListener] Received job status event. JobState: Online
+[2024-05-07 16:09:16Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/xZxDCTA1XkuJydqzG5YKizS7TS0EmvC9s7dBF22bAAqInVPTHB/_apis/distributedtask/pools/1/messages?sessionId=d5f60a30-b464-411e-9f58-17d96720bbea&lastMessageId=7&status=Busy&runnerVersion=2.316.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-05-07 16:09:16Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-05-07 16:14:18Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Notebook\labs\github-actions\actions-runner\.credentials_rsaparams
+[2024-05-07 16:14:18Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-05-07 16:37:43Z INFO MessageListener] No message retrieved from session 'd5f60a30-b464-411e-9f58-17d96720bbea' within last 30 minutes.
