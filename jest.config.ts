@@ -12,7 +12,7 @@ const config: Config = {
   // coverageProvider: 'v8',
   testEnvironment: 'jest-environment-jsdom',
   preset: 'ts-jest',
-  testPathIgnorePatterns: ['\\actions-runner\\'],
+  testPathIgnorePatterns: ['actions-runner'],
   // Add more setup options before each test is run
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts','<rootDir>/jest.config2.js'],
 }
